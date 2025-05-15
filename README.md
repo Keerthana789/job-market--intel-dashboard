@@ -1,11 +1,41 @@
 # 💼 Job Market Intelligence Dashboard
 
-A real-time dashboard that scrapes, cleans, and visualizes job listings from [RemoteOK](https://remoteok.com) and LinkedIn using Python, Pandas, and Streamlit.
+A real-time job analytics dashboard that scrapes, cleans, and visualizes listings from [RemoteOK](https://remoteok.com) and LinkedIn using Python, Pandas, and Streamlit.
 
-🔗 **Live App**: [Streamlit Dashboard](https://your-username.streamlit.app](https://job-market--intel-dashboard-a8d4czahkjhipf8rirhqys.streamlit.app/)
+🚀 **Live Demo**: [Click here to view the dashboard](https://job-market--intel-dashboard-a8d4czahkjhipf8rirhqys.streamlit.app/)
 
-📂 **Repo Highlights**
-- Real-time web scraping (RemoteOK, LinkedIn)
-- ETL pipeline for data cleaning and transformation
-- Power metrics + filters in interactive dashboard
-- Deployed via Streamlit Cloud
+## 📌 Features
+
+- 🔄 Real-time job scraping from RemoteOK and LinkedIn (via JSearch API)
+- ⚙️ ETL pipeline to clean and standardize data
+- 📊 Interactive dashboard with filters for:
+  - Location
+  - Tags
+  - Title
+  - Posting recency
+- 📈 Visualizations of:
+  - Top hiring companies
+  - Job trends over time by source
+- ☁️ Deployed live on Streamlit Cloud
+
+---
+
+## 🗂️ Project Structure
+job-market-intel-dashboard/
+│
+├── data/
+│ └── clean_jobs.csv # Final cleaned dataset
+│
+├── dashboard/
+│ └── dashboard.py # Streamlit UI
+│
+├── etl/
+│ └── clean_job_data.py # ETL pipeline
+│
+└── README.md
+
+## 💡 Future Improvements
+- Add database or S3 integration to persist job history
+- Integrate more job APIs (e.g., Levels.fyi, Indeed)
+- Enable filters by experience level, salary, remote/hybrid
+
