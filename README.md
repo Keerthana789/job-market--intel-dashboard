@@ -20,22 +20,13 @@ A real-time job analytics dashboard that scrapes, cleans, and visualizes listing
 
 ---
 
-## 🗂️ Project Structure
-job-market-intel-dashboard/
-│
-├── data/
-│ └── clean_jobs.csv # Final cleaned dataset
-│
-├── dashboard/
-│ └── dashboard.py # Streamlit UI
-│
-├── etl/
-│ └── clean_job_data.py # ETL pipeline
-│
-└── README.md
-
 ## 💡 Future Improvements
 - Add database or S3 integration to persist job history
 - Integrate more job APIs (e.g., Levels.fyi, Indeed)
 - Enable filters by experience level, salary, remote/hybrid
+
+## 🙌 Author
+Keerthana Adavelli
+🔗 [LinkedIn](https://www.linkedin.com/in/keerthana-adavelli/)
+📫 [keerthanaadavelli12@gmail.com]
 
