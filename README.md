@@ -27,6 +27,8 @@ A real-time job analytics dashboard that scrapes, cleans, and visualizes listing
 
 ## 🙌 Author
 Keerthana Adavelli
+
 🔗 [LinkedIn](https://www.linkedin.com/in/keerthana-adavelli/)
+
 📫 [keerthanaadavelli12@gmail.com]
 
