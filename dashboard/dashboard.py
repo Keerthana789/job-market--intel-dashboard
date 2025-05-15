@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load cleaned data
-df = pd.read_csv("clean_jobs.csv")
+df = pd.read_csv("data/clean_jobs.csv")
 
 st.title("💼 Job Market Intelligence Dashboard")
 st.markdown("### 📍 Real-time job analytics from RemoteOK and LinkedIn")
